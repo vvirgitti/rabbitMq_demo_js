@@ -1,0 +1,21 @@
+{
+  "name": "rabbitmq_demo_js",
+  "version": "1.0.0",
+  "description": "playing with rabbitmq",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive test/**/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "ejs": "^2.5.2",
+    "mocha": "^3.1.1",
+    "supertest": "^2.0.0"
+  }
+}
